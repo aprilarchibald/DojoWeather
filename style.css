@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cityNames{
+    display: flex;
+}
+.cityNames h3{
+    padding: 0.8em;
+}
+
+.secondHeader{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    border-bottom: 4px solid black;
+}
+p{
+    font-weight: bold;
+}
+
+/* main content */
+
+.weatherForecast{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-color: lightslategrey;
+    margin: 20px;
+    padding: 40px;
+    height: 350px;
+    text-align: center;
+    
+
+}
+.images{
+    height: 120px;
+    width: auto;
+    border-radius: 50%;
+    margin: 20px;
+}
+.temps{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.highs{
+    color: red;
+}
+.lows{
+    color: blue;
+}
+
+
+
+
+/* Cookie Bar */
+.cookieBar{
+    display: flex;
+    border: 3px solid black;
+    position: fixed;
+    width: 1050px;
+    align-items: center;
+    margin-left: 420px;
+    padding: 15px;
+    justify-content: space-between;
+}
+.acceptButton{
+    background-color: cornflowerblue;
+    width: 60px;
+    height: 30px;
+    font-weight: bold;
+    box-shadow: 5px 5px black;
+    border: 2px solid black;
+}
